@@ -525,6 +525,8 @@ b {
 .site-footer-info p {
   color: #8b8e99;
 }
+.site-footer a:hover{color: #9664d8;}
+.site-footer h2:hover{color: #7000ff;}
 @media only screen and (max-width: 1215px) {
   .site-header-bottom-logo h2 {
     font-size: 11px;
@@ -646,11 +648,14 @@ b {
   .hero-right-top{height: 200px;}
 }
 @media only screen and (max-width: 586px) {
- .hero-card-price{display: flex;position: relative;top: 170px;align-items: center;}
+.button-reset{display: none;}
 }
 @media only screen and (max-width: 541px) {
  .hero-card-price span{display: none;}
 }
-@media only screen and (max-width: 442px) {
- .hero-card-price {display: flex;flex-direction: column;}
+@media only screen and (max-width: 495px) {
+.hero-card-price{margin-top: 60px;}
+}
+@media only screen and (max-width: 486px) {
+.hero-card-top{display: flex;flex-wrap: wrap;align-items: center;}
 }
