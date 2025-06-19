@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icon -->
+    <link
+      href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header-top">
+        <div class="container">
+          <div class="site-header-top-wrap">
+            <div class="site-header-top-left">
+              <span
+                ><i class="bxr bx-location-alt" style="color: black"></i>
+              </span>
+              <p>
+                Shahar: <b><u>Toshkent</u></b>
+              </p>
+              <h2>Topshirish punktlari</h2>
+            </div>
+            <div class="site-header-top-middle">
+              <p>Buyurtmangizni 1 kunda bepul yetkazib beramiz!</p>
+            </div>
+            <div class="site-header-top-right">
+              <a href="">Savol-javoblar</a>
+              <a href="">Buyurtmalarim</a>
+              <img src="./image/png/span.icon__selected-before.png" alt="" />
+              <span>Оʻzbekcha</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- site header middle -->
+      <div class="site-header-middle">
+        <div class="container">
+          <div class="site-header-middle-wrap">
+            <div class="site-header-middle-logo">
+              <img src="./image/png/uzum-logo.png" alt="" />
+              <a class="site-header-middle-btn" href="">
+                <span
+                  ><i class="bxr bx-wallet-cards" style="color: #7000ff"></i>
+                </span>
+                Katalog
+              </a>
+            </div>
+            <div class="site-header-middle-input">
+              <input
+                type="text"
+                placeholder="Mahsulotlar va turkumlar izlash"
+              />
+              <div class="site-header-middle-input-icon">
+                <i class="bxr bx-search" style="color: #595b66"></i>
+              </div>
+            </div>
+            <div class="site-header-middle-icon">
+              <a href=""
+                ><i class="bxr bx-user" style="color: #1f2026"></i>
+                Kirish
+              </a>
+              <a href="./choosen.html"
+                ><i class="bxr bx-heart" style="color: #1f2026"></i>
+                Saralangan
+              </a>
+              <a href="./basket.html"
+                ><i class="bxr bx-shopping-bag-alt" style="color: #1f2026"></i>
+                Savat
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- site-header-bottom -->
+      <div class="site-header-bottom">
+        <div class="container">
+          <div class="site-header-bottom-wrap">
+            <div class="site-header-bottom-logo">
+              <img src="./image/png/ornament.png" alt="" />
+              <h2>Muddatli to'lov</h2>
+            </div>
+            <nav class="site-header-bottom-nav">
+              <ul class="site-header-bottom-list">
+                <li>
+                  <a href=""> Elektronika </a>
+                </li>
+                <li>
+                  <a href=""> Maishiy texnika </a>
+                </li>
+                <li>
+                  <a href=""> Kiyim </a>
+                </li>
+                <li>
+                  <a href=""> Poyabzallar </a>
+                </li>
+                <li>
+                  <a href=""> Aksessuarlar </a>
+                </li>
+                <li>
+                  <a href=""> Goʻzallik va parvarish </a>
+                </li>
+                <li>
+                  <a href=""> Salomatlik </a>
+                </li>
+                <li>
+                  <a href=""> Uy-roʻzgʻor buyumlari </a>
+                </li>
+                <li>
+                  <a href=""> Qurilish va taʼmirlash </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="site-header-bottom-menu">
+              <i class="bxr bx-menu-close" style="color: #402445"></i>
+            </div>
+            <div class="site-header-bottom-more">
+              Yana
+              <span
+                ><i class="bxr bx-arrow-down-stroke" style="color: #595b66"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- main -->
+    <main>
+      <!-- hero -->
+      <section class="hero">
+        <div class="container">
+         <div class="swiper-wrap">
+           <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./image/png/div.swiper-container.png" alt=""></div>
+              <div class="swiper-slide"><img src="./image/png/prize.png" alt=""></div>
+              <div class="swiper-slide"><img src="./image/png/hot.png" alt=""></div>
+              
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+         </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      cssMode: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      mousewheel: true,
+      keyboard: true,
+    });
+  </script>
+      </section>
+      <section class="product">
+        <div class="container">
+          <div class="product-title">
+            <h2>Arzon narxlar</h2> <span><i class='bxr  bx-arrow-right-stroke'  style='color:black'></i> </span>
+          </div>
+          <div class="product-card-wrap">
+            <div class="product-card">
+              <div class="product-card-top">
+              
+                <div class="product-card-top-info">Eksklyuziv</div>
+                 <a href="">
+                 <i class='bxr  bx-heart'  style='color:#808080'></i>
+               </a> 
+              </div>
+              <div class="product-card-bottom">
+                <h2>Kungaboqar yog'i Oila tanlovi,
+               tozalangan va xidsizlantirilgan, 90…</h2>
+               <p><span><i class='bxr  bxs-star'  style='color:#ffff00'></i></span>
+              4.9(40.92 sharsh)</p>
+              <div class="price-monthly">1 560 so'm/oyiga</div>
+              <div class="product-card-bottom-price-wrap">
+                <div class="product-card-bottom-price">
+                  <del>15 000 so'm</del>
+                  <h3>13 000 so'm</h3>
+
+                </div>
+                <div class="product-card-bottom-price-icon">
+                 <a href="">
+                   <i class='bxr  bx-shopping-bag-alt'  style='color:#6d6a6a'></i> 
+                 </a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- 1 -->
+              <div class="product-card">
+              <div class="product-card-top-oila">
+              
+                <div class="product-card-top-info">Eksklyuziv</div>
+                 <a href="">
+                 <i class='bxr  bx-heart'  style='color:#808080'></i>
+               </a> 
+              </div>
+              <div class="product-card-bottom">
+                <h2>Kir yuvish kukuni Oila tanlovi "Ayoz
+tazeligi", avtomat, 3 kg</h2>
+               <p><span><i class='bxr  bxs-star'  style='color:#ffff00'></i></span>
+              4.5(123 sharsh)</p>
+              <div class="price-monthly">4 920 so'm/oyiga</div>
+              <div class="product-card-bottom-price-wrap">
+                <div class="product-card-bottom-price">
+                  <del>57 000 so'm</del>
+                  <h3>41 000 so'm</h3>
+
+                </div>
+                <div class="product-card-bottom-price-icon">
+                 <a href="">
+                   <i class='bxr  bx-shopping-bag-alt'  style='color:#6d6a6a'></i> 
+                 </a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- 2 -->
+              <div class="product-card">
+              <div class="product-card-top-discount">
+              
+                <div class="product-card-top-info-discount">aksiya</div>
+                 <a href="">
+                 <i class='bxr  bx-heart'  style='color:#808080'></i>
+               </a> 
+              </div>
+              <div class="product-card-bottom">
+                <h2>Smartfon Xiaomi Redmi Note 13,
+6/128 GB, 8/128 GB, 8/256GB,…</h2>
+               <p><span><i class='bxr  bxs-star'  style='color:#ffff00'></i></span>
+              5.0(8 sharsh)</p>
+              <div class="price-monthly">299 880 so'm/oyiga</div>
+              <div class="product-card-bottom-price-wrap">
+                <div class="product-card-bottom-price">
+                  <del>3 010 000 so'm</del>
+                  <h3>2 499 000 so'm</h3>
+
+                </div>
+                <div class="product-card-bottom-price-icon">
+                 <a href="">
+                   <i class='bxr  bx-shopping-bag-alt'  style='color:#6d6a6a'></i> 
+                 </a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- 3 -->
+              <div class="product-card">
+              <div class="product-card-top-cloth">
+              
+                <div class="product-card-top-info-discount">Aksiya</div>
+                 <a href="">
+                 <i class='bxr  bx-heart'  style='color:#808080'></i>
+               </a> 
+              </div>
+              <div class="product-card-bottom">
+                <h2>Yangi tug'ilgan chaqaloqlar uchun
+tana to'plami 100% paxta, 3 dona</h2>
+               <p><span><i class='bxr  bxs-star'  style='color:#ffff00'></i></span>
+              5.0(1 sharsh)</p>
+              <div class="price-monthly">11 880 so'm/oyiga</div>
+              <div class="product-card-bottom-price-wrap">
+                <div class="product-card-bottom-price">
+                  <del>160 000 so'm</del>
+                  <h3>99 000 so'm</h3>
+
+                </div>
+                <div class="product-card-bottom-price-icon">
+                 <a href="">
+                   <i class='bxr  bx-shopping-bag-alt'  style='color:#6d6a6a'></i> 
+                 </a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- 4 -->
+              <div class="product-card">
+              <div class="product-card-top-brownie">
+              
+                <div class="product-card-top-info-discount">Aksiya</div>
+                 <a href="">
+                 <i class='bxr  bx-heart'  style='color:#808080'></i>
+               </a> 
+              </div>
+              <div class="product-card-bottom">
+                <h2>Sdobnoe pechenye Zarqand
+Brownie cookies, 490 g</h2>
+               <p><span><i class='bxr  bxs-star'  style='color:#ffff00'></i></span>
+              not assesed</p>
+              <div class="price-monthly">4 320 so'm/oyiga</div>
+              <div class="product-card-bottom-price-wrap">
+                <div class="product-card-bottom-price">
+                  <del>59 000 so'm</del>
+                  <h3>36 000 so'm</h3>
+
+                </div>
+                <div class="product-card-bottom-price-icon">
+                 <a href="">
+                   <i class='bxr  bx-shopping-bag-alt'  style='color:#6d6a6a'></i> 
+                 </a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- 5 -->
+              <div class="product-card">
+              <div class="product-card-top-tv">
+              
+                <div class="product-card-top-info-discount">Aksiya</div>
+                 <a href="">
+                 <i class='bxr  bx-heart'  style='color:#808080'></i>
+               </a> 
+              </div>
+              <div class="product-card-bottom">
+                <h2>Televizor Samsung Crystal UHD 4K
+43", 50", 55", 65" CU7100 Smart TV</h2>
+               <p><span><i class='bxr  bxs-star'  style='color:#ffff00'></i></span>
+              5.0(5 sharsh)</p>
+              <div class="price-monthly">587 880 so'm/oyiga</div>
+              <div class="product-card-bottom-price-wrap">
+                <div class="product-card-bottom-price">
+                  <del>5 830 000 so'm</del>
+                  <h3>4 899 000 so'm</h3>
+
+                </div>
+                <div class="product-card-bottom-price-icon">
+                 <a href="">
+                   <i class='bxr  bx-shopping-bag-alt'  style='color:#6d6a6a'></i> 
+                 </a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- 6 -->
+              <div class="product-card">
+              <div class="product-card-top-machine">
+              
+                <div class="product-card-top-info-discount">Aksiya</div>
+                 
+              </div>
+              <div class="product-card-bottom">
+                <h2>Avtomobil va uy uchun portativ,
+simsiz, kuchli JB-107 changyutgic…</h2>
+               <p><span><i class='bxr  bxs-star'  style='color:#ffff00'></i></span>
+              4.7(32 sharsh)</p>
+              <div class="price-monthly">23 880 so'm/oyiga</div>
+              <div class="product-card-bottom-price-wrap">
+                <div class="product-card-bottom-price">
+                  <del>620 000 so'm</del>
+                  <h3>199 000 so'm</h3>
+
+                </div>
+                <div class="product-card-bottom-price-icon">
+                 <a href="">
+                   <i class='bxr  bx-shopping-bag-alt'  style='color:#6d6a6a'></i> 
+                 </a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- 7 -->
+              <div class="product-card">
+              <div class="product-card-top-bag">
+              
+                <div class="product-card-top-info-discount">Aksiya</div>
+                 <a href="">
+                 <i class='bxr  bx-heart'  style='color:#808080'></i>
+               </a> 
+              </div>
+              <div class="product-card-bottom">
+                <h2>Sumka shopper ayollar uchun,
+yelkama, charmdan, eko zamsh,…</h2>
+               <p><span><i class='bxr  bxs-star'  style='color:#ffff00'></i></span>
+              5.0(4 sharsh)</p>
+              <div class="price-monthly">11 880 so'm/oyiga</div>
+              <div class="product-card-bottom-price-wrap">
+                <div class="product-card-bottom-price">
+                  <del>400 000 so'm</del>
+                  <h3>99 000 so'm</h3>
+
+                </div>
+                <div class="product-card-bottom-price-icon">
+                 <a href="">
+                   <i class='bxr  bx-shopping-bag-alt'  style='color:#6d6a6a'></i> 
+                 </a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- 8 -->
+              <div class="product-card">
+              <div class="product-card-top-redmi">
+              
+                <div class="product-card-top-info-discount">Aksiya</div>
+                 <a href="">
+                 <i class='bxr  bx-heart'  style='color:#808080'></i>
+               </a> 
+              </div>
+              <div class="product-card-bottom">
+                <h2>Smartfon Xiaomi Redmi Note 13
+Pro, 8/256 ГБ, 12/512 ГБ, 6.67", 1…</h2>
+               <p><span><i class='bxr  bxs-star'  style='color:#ffff00'></i></span>
+              5.0(6 sharsh)</p>
+              <div class="price-monthly">448 680 so'm/oyiga</div>
+              <div class="product-card-bottom-price-wrap">
+                <div class="product-card-bottom-price">
+                  <del>6 000 000 so'm</del>
+                  <h3>3 739 000 so'm</h3>
+
+                </div>
+                <div class="product-card-bottom-price-icon">
+                 <a href="">
+                   <i class='bxr  bx-shopping-bag-alt'  style='color:#6d6a6a'></i> 
+                 </a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- 9 -->
+              <div class="product-card">
+              <div class="product-card-top-pillow">
+              
+                <div class="product-card-top-info-discount">Aksiya</div>
+                 <a href="">
+                 <i class='bxr  bx-heart'  style='color:#808080'></i>
+               </a> 
+              </div>
+              <div class="product-card-bottom">
+                <h2>Yostiqlar to'plami, bambukdan,
+gipoallergenli, ekologik toza, 70 *…</h2>
+               <p><span><i class='bxr  bxs-star'  style='color:#ffff00'></i></span>
+              4.9(165 sharsh)</p>
+              <div class="price-monthly">10 680 so'm/oyiga</div>
+              <div class="product-card-bottom-price-wrap">
+                <div class="product-card-bottom-price">
+                  <del>197 000 so'm</del>
+                  <h3>89 000 so'm</h3>
+
+                </div>
+                <div class="product-card-bottom-price-icon">
+                 <a href="">
+                   <i class='bxr  bx-shopping-bag-alt'  style='color:#6d6a6a'></i> 
+                 </a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- 10 -->
+              <div class="product-card">
+              <div class="product-card-top-tool">
+              
+                <div class="product-card-top-info-discount">Aksiya</div>
+                 <a href="">
+                 <i class='bxr  bx-heart'  style='color:#808080'></i>
+               </a> 
+              </div>
+              <div class="product-card-bottom">
+                <h2>Drel shurup buragich L-FINE,
+cho'tkasiz to'plam, 54 ta buyumdan</h2>
+               <p><span><i class='bxr  bxs-star'  style='color:#ffff00'></i></span>
+              5.0(10 sharsh)</p>
+              <div class="price-monthly">71 880 so'm/oyiga</div>
+              <div class="product-card-bottom-price-wrap">
+                <div class="product-card-bottom-price">
+                  <del>850 000 so'm</del>
+                  <h3>599 000 so'm</h3>
+
+                </div>
+                <div class="product-card-bottom-price-icon">
+                 <a href="">
+                   <i class='bxr  bx-shopping-bag-alt'  style='color:#6d6a6a'></i> 
+                 </a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- 11 -->
+              <div class="product-card">
+              <div class="product-card-top-trainer">
+              
+                <div class="product-card-top-info-disport">DI sport</div>
+                 <a href="">
+                 <i class='bxr  bx-heart'  style='color:#808080'></i>
+               </a> 
+              </div>
+              <div class="product-card-bottom">
+                <h2>Erkaklar uchun krossovka Joma
+r.vitaly men 2201 black</h2>
+               <p><span><i class='bxr  bxs-star'  style='color:#ffff00'></i></span>
+              5.0(20 sharsh)</p>
+              <div class="price-monthly">41 880 so'm/oyiga</div>
+              <div class="product-card-bottom-price-wrap">
+                <div class="product-card-bottom-price">
+                  <del>687 000 so'm</del>
+                  <h3>349 000 so'm</h3>
+
+                </div>
+                <div class="product-card-bottom-price-icon">
+                 <a href="">
+                   <i class='bxr  bx-shopping-bag-alt'  style='color:#6d6a6a'></i> 
+                 </a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- 12 -->
+              <div class="product-card">
+              <div class="product-card-top-washing">
+              
+                <div class="product-card-top-info-discount">Aksiya</div>
+                 <a href="">
+                 <i class='bxr  bx-heart'  style='color:#808080'></i>
+               </a> 
+              </div>
+              <div class="product-card-bottom">
+                <h2>Kir yuvish mashinasi Beko
+WSPE7612A, Inverter ProSmart, 7…</h2>
+               <p><span><i class='bxr  bxs-star'  style='color:#ffff00'></i></span>
+              4.9(47 sharsh)</p>
+              <div class="price-monthly">455 880 so'm/oyiga</div>
+              <div class="product-card-bottom-price-wrap">
+                <div class="product-card-bottom-price">
+                  <del>4 570 000 so'm</del>
+                  <h3>3 799 000 so'm</h3>
+
+                </div>
+                <div class="product-card-bottom-price-icon">
+                 <a href="">
+                   <i class='bxr  bx-shopping-bag-alt'  style='color:#6d6a6a'></i> 
+                 </a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- 13 -->
+              <div class="product-card">
+              <div class="product-card-top-pepsi">
+              
+                <div class="product-card-top-info-pepsi">Aksiya Pepsi</div>
+                 <a href="">
+                 <i class='bxr  bx-heart'  style='color:#808080'></i>
+               </a> 
+              </div>
+              <div class="product-card-bottom">
+                <h2>Gazlangan ichimlik Pepsi, 1.5 litr</h2>
+               <p><span><i class='bxr  bxs-star'  style='color:#ffff00'></i></span>
+              4.9(1439 sharsh)</p>
+              <div class="price-monthly">1 440 so'm/oyiga</div>
+              <div class="product-card-bottom-price-wrap">
+                <div class="product-card-bottom-price">
+                  <del>13 000 so'm</del>
+                  <h3>12 000 so'm</h3>
+
+                </div>
+                <div class="product-card-bottom-price-icon">
+                 <a href="">
+                   <i class='bxr  bx-shopping-bag-alt'  style='color:#6d6a6a'></i> 
+                 </a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- 14 -->
+              <div class="product-card">
+              <div class="product-card-top-watches">
+              
+                <div class="product-card-top-info-discount">Aksiya</div>
+                 <a href="">
+                 <i class='bxr  bx-heart'  style='color:#808080'></i>
+               </a> 
+              </div>
+              <div class="product-card-bottom">
+                <h2>Casio F-91W Qo'l Soati, Elektron
+tablo, Budilnik, Sekundomer, LED…</h2>
+               <p><span><i class='bxr  bxs-star'  style='color:#ffff00'></i></span>
+              5.0(3 sharsh)</p>
+              <div class="price-monthly">35 880 so'm/oyiga</div>
+              <div class="product-card-bottom-price-wrap">
+                <div class="product-card-bottom-price">
+                  <del>420 000 so'm</del>
+                  <h3>299 000 so'm</h3>
+
+                </div>
+                <div class="product-card-bottom-price-icon">
+                 <a href="">
+                   <i class='bxr  bx-shopping-bag-alt'  style='color:#6d6a6a'></i> 
+                 </a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- 15 -->
+              <div class="product-card">
+              <div class="product-card-top-boy">
+              
+                <div class="product-card-top-info-discount">Aksiya</div>
+                 <a href="">
+                 <i class='bxr  bx-heart'  style='color:#808080'></i>
+               </a> 
+              </div>
+              <div class="product-card-bottom">
+                <h2>Sport kostyumi o'g'il bolalar uchun
+DUDUKA TRENDS. To'plam Hudi…</h2>
+               <p><span><i class='bxr  bxs-star'  style='color:#ffff00'></i></span>
+              not assesed</p>
+              <div class="price-monthly">23 880 so'm/oyiga</div>
+              <div class="product-card-bottom-price-wrap">
+                <div class="product-card-bottom-price">
+                  <del>388 000 so'm</del>
+                  <h3>199 000 so'm</h3>
+
+                </div>
+                <div class="product-card-bottom-price-icon">
+                 <a href="">
+                   <i class='bxr  bx-shopping-bag-alt'  style='color:#6d6a6a'></i> 
+                 </a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- 16 -->
+              <div class="product-card">
+              <div class="product-card-top-cleaner">
+              
+                <div class="product-card-top-info-discount">Aksiya</div>
+                 <a href="">
+                 <i class='bxr  bx-heart'  style='color:#808080'></i>
+               </a> 
+              </div>
+              <div class="product-card-bottom">
+                <h2>Chanyutgich Artel VCB0316, 1600
+Vt</h2>
+               <p><span><i class='bxr  bxs-star'  style='color:#ffff00'></i></span>
+              4.9(48 sharsh)</p>
+              <div class="price-monthly">83 880 so'm/oyiga</div>
+              <div class="product-card-bottom-price-wrap">
+                <div class="product-card-bottom-price">
+                  <del>999 000 so'm</del>
+                  <h3>699 000 so'm</h3>
+
+                </div>
+                <div class="product-card-bottom-price-icon">
+                 <a href="">
+                   <i class='bxr  bx-shopping-bag-alt'  style='color:#6d6a6a'></i> 
+                 </a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- 17 -->
+              <div class="product-card">
+              <div class="product-card-top-car">
+              
+                <div class="product-card-top-info-discount">Aksiya</div>
+                 <a href="">
+                 <i class='bxr  bx-heart'  style='color:#808080'></i>
+               </a> 
+              </div>
+              <div class="product-card-bottom">
+                <h2>Avtomobil monitorlari Teyes CC2L
+Plus 10.2/2+32 Gentra, Lasetti…</h2>
+               <p><span><i class='bxr  bxs-star'  style='color:#ffff00'></i></span>
+              4.2(29 sharsh)</p>
+              <div class="price-monthly">142 800 so'm/oyiga</div>
+              <div class="product-card-bottom-price-wrap">
+                <div class="product-card-bottom-price">
+                  <del>1 752 000 so'm</del>
+                  <h3>1 190 000 so'm</h3>
+
+                </div>
+                <div class="product-card-bottom-price-icon">
+                 <a href="">
+                   <i class='bxr  bx-shopping-bag-alt'  style='color:#6d6a6a'></i> 
+                 </a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- 19 -->
+              <div class="product-card">
+              <div class="product-card-top-shampoo">
+              
+                <div class="product-card-top-info-discount">Aksiya</div>
+                 <a href="">
+                 <i class='bxr  bx-heart'  style='color:#808080'></i>
+               </a> 
+              </div>
+              <div class="product-card-bottom">
+                <h2>Shampun L'Oreal Paris Elseve, to'liq
+tiklanish 5, 250 ml</h2>
+               <p><span><i class='bxr  bxs-star'  style='color:#ffff00'></i></span>
+              5.0(6 sharsh)</p>
+              <div class="price-monthly">3 240 so'm/oyiga</div>
+              <div class="product-card-bottom-price-wrap">
+                <div class="product-card-bottom-price">
+                  <del>38 000 so'm</del>
+                  <h3>27 000 so'm</h3>
+
+                </div>
+                <div class="product-card-bottom-price-icon">
+                 <a href="">
+                   <i class='bxr  bx-shopping-bag-alt'  style='color:#6d6a6a'></i> 
+                 </a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- 20 -->
+              <div class="product-card">
+              <div class="product-card-top-shoe">
+              
+                <div class="product-card-top-info-discount">Aksiya</div>
+                 <a href="">
+                 <i class='bxr  bx-heart'  style='color:#808080'></i>
+               </a> 
+              </div>
+              <div class="product-card-bottom">
+                <h2>Tabiiy charmdan tayyorlangan
+etiklar, qishki, mex bilan, suv…</h2>
+               <p><span><i class='bxr  bxs-star'  style='color:#ffff00'></i></span>
+              not assesed</p>
+              <div class="price-monthly">35 880 so'm/oyiga</div>
+              <div class="product-card-bottom-price-wrap">
+                <div class="product-card-bottom-price">
+                  <del>599 000 so'm</del>
+                  <h3>299 000 so'm</h3>
+
+                </div>
+                <div class="product-card-bottom-price-icon">
+                 <a href="">
+                   <i class='bxr  bx-shopping-bag-alt'  style='color:#6d6a6a'></i> 
+                 </a>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-card-bottom-btn">
+            <a href="">Yana koʻrsatish 20</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+     <footer class="site-footer">
+      <div class="container">
+        <div class="site-footer-wrap">
+          <nav>
+            <ul class="site-footer-list">
+          <li>
+            <h2>Biz haqimizda</h2>
+          </li>
+          <li>
+            <a href="">Topshirish punktlari</a>
+          </li>
+          <li>
+            <a href="">Vakansiyalar</a>
+          </li>
+        </ul>
+          </nav>
+           <nav>
+            <ul class="site-footer-list">
+          <li>
+            <h2>Foydalanuvchilarga</h2>
+          </li>
+          <li>
+            <a href="">Biz bilan bogʻlanish</a>
+          </li>
+          <li>
+            <a href="">Savol-Javob</a>
+          </li>
+        </ul>
+          </nav>
+           <nav>
+            <ul class="site-footer-list">
+          <li>
+            <h2>Tadbirkorlarga</h2>
+          </li>
+          <li>
+            <a href="">Uzumda soting</a>
+          </li>
+          <li>
+            <a href="">Sotuvchi kabinetiga kirish</a>
+          </li>
+        </ul>
+          </nav>
+          <nav class="site-footer-social-wrap">
+             <h2>Ilovani yuklab olish</h2>
+            <ul class="site-footer-social">
+             
+              <li><span><img style="background-color: black;" src="./image/png/apple.png" alt="">AppStore</span>
+              <span><img src="./image/png/play-market.png" alt="">Google Play</span></li>
+            </ul>
+            <h2 class="site-footer-social-title">Uzum ijtimoiy tarmoqlarda</h2>
+            <ul class="site-footer-social-link">
+              
+              <li><a href=""><img src="./image/png/insta.png" alt=""></a></li>
+              <li><a href=""><img src="./image/png/tg.png" alt=""></a></li>
+              <li><a href=""><img src="./image/png/tube.png" alt=""></a></li>
+              <li><a href=""><img src="./image/png/facebook.png" alt=""></a></li>
+            </ul>
+          </nav>
+        </div>
+        <hr>
+        <div class="site-footer-info">
+         <div>
+           <h2>Maxfiylik kelishuvi</h2>
+           <h2>Foydalanuvchi kelishuvi</h2>
+         </div>
+         <div>
+          <p>«2024© XK MCHJ «UZUM MARKET». STIR 309376127. Barcha huquqlar himoyalangan»</p>
+         </div>
+        </div>
+      </div>
+     </footer>
+    
+    
+  </body>
+</html>
