@@ -145,8 +145,9 @@ b {
   display: flex;
   justify-content: space-between;
   border: 1px solid #36364033;
-  padding-left: 17px;
-  margin-right: 24px;
+
+ 
+  
 }
 .site-header-middle-input input {
   display: flex;
@@ -792,6 +793,7 @@ vertical-align: middle;
     margin-top: 3px;
     margin-right: 3px;
   }
+  .site-header-middle-input{padding-left: 10px;}
   .container {
     padding-left: 10px;
     padding-right: 10px;
