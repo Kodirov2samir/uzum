@@ -778,6 +778,7 @@ vertical-align: middle;
     align-items: center;
     justify-content: space-around;
     z-index: 2;
+    margin-left: -10px;
   }
   .site-header-middle-icon a {
     color: white;
@@ -792,7 +793,7 @@ vertical-align: middle;
     margin-right: 3px;
   }
   .container {
-    padding-left: 1px;
+    padding-left: 10px;
     padding-right: 10px;
   }
   .site-header-middle-logo-wrap1 {
@@ -804,6 +805,7 @@ vertical-align: middle;
   .site-header-middle-wrap {
     flex-wrap: wrap;
   }
+  .site-header-middle-wrap input{width: 100%;}
   .site-header-middle-logo {
     width: 100%;
     display: flex;
